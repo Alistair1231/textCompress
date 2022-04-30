@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['/'],
+a = Analysis(['src'],
              pathex=[],
              binaries=[],
              datas=[],
