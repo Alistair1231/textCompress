@@ -17,8 +17,6 @@ jobs:
     - name: Package Application
       uses: JackMcKew/pyinstaller-action-windows@main
       with:
-        path: src
-        spec: src/textCompress.spec
 
     - uses: actions/upload-artifact@v3
       with:
