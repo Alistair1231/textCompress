@@ -5,7 +5,7 @@ import pyperclip
 
 
 def compress(text: str):
-    compressed = base64.b64encode(zlib.compress(text.encode())).decode()
+    compressed = base64.b64encode(zlib.compress(text.encode(),level=9)).decode()
     return compressed
 
 
